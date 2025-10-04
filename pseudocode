@@ -1,0 +1,25 @@
+first row is the column headers >> only care about the date
+
+each sale >> only care about the date
+each item in sale >> just care about SKU, product, price, QTY
+
+code:
+create a dictionary of sale items
+
+open the csv to read into var
+
+loop through each sale in csv:
+    store the date of the sale
+    loop through each item:
+        if the item is in the dictionary: increase its QTY
+        else: create a sale item, add the currently stored date to it, add it to the dictionary
+
+close csv
+
+create new csv
+loop through dictionary of sale items:
+    add each into csv
+
+close new csv
+
+
