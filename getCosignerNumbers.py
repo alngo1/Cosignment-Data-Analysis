@@ -1,3 +1,6 @@
+# This python file takes an exported Ricochet Cosigners Tab and
+# returns a dictionary for each cosigner with name and ID.
+# In this case the file we read from is called "cosigners.csv"
 import csv
 
 def getCosignerNumbers():
